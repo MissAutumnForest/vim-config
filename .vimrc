@@ -7,6 +7,7 @@ syntax enable       " Enable syntax processesing / highlighting
 
 set tabstop=8       " Number of visual spaces per TAB
 set softtabstop=8   " Number of spaces in TAB when editing
+set smartindent     " Enable Smart indent (works in c like files)
 " set expandtab       " TABs just translate to spaces now.
 
 " #### UI Config ####
@@ -23,6 +24,3 @@ set showmatch       " Highlight matching [{()}]
 
 set incsearch       " Search as characters are entered
 set hlsearch        " Highlight matches
-
-" #### Plugin Runtime Paths ####
-set runtimepath^=~/.vim/bundle/ctrlp.vim " Include ctrlp
