@@ -8,6 +8,7 @@ syntax enable       " Enable syntax processesing / highlighting
 set tabstop=8       " Number of visual spaces per TAB
 set softtabstop=8   " Number of spaces in TAB when editing
 set smartindent     " Enable Smart indent (works in c like files)
+filetype plugin indent on
 " set expandtab       " TABs just translate to spaces now.
 
 " #### UI Config ####
@@ -24,3 +25,11 @@ set showmatch       " Highlight matching [{()}]
 
 set incsearch       " Search as characters are entered
 set hlsearch        " Highlight matches
+
+" #### Pathogen ####
+execute pathogen#infect()
+
+" #### Bindings ####
+
+map <C-n> :NERDTreeToggle<CR>
+map <C-p> g:ctrlp_user_command = 'find %s -type f'
