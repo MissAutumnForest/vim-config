@@ -4,11 +4,15 @@
 syntax enable       " Enable syntax processesing / highlighting
 
 " #### Spaces & Tabs ####
+filetype indent on
 
-set tabstop=8       " Number of visual spaces per TAB
-set softtabstop=8   " Number of spaces in TAB when editing
+setlocal softtabstop=2   " Number of spaces in TAB when editing
+setlocal tabstop=2
+set softtabstop=2
+set tabstop=2
+set shiftwidth=2
+
 set smartindent     " Enable Smart indent (works in c like files)
-filetype plugin indent on
 " set expandtab       " TABs just translate to spaces now.
 
 " #### UI Config ####
@@ -39,6 +43,8 @@ nnoremap tk :tabn<CR>
 nnoremap ta :tab all<CR>
 nnoremap te :tabc<CR>
 nnoremap tq :qa<CR>
+
+nnoremap tf gg=G2<C-o>
 
 " #### CtrlP ####
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
