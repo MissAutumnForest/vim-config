@@ -33,3 +33,6 @@ execute pathogen#infect()
 
 map <C-n> :NERDTreeToggle<CR>
 map <C-p> :CtrlPMixed<CR>
+
+nnoremap tj :tabp<CR>
+nnoremap tk :tabn<CR>
