@@ -32,4 +32,4 @@ execute pathogen#infect()
 " #### Bindings ####
 
 map <C-n> :NERDTreeToggle<CR>
-map <C-p> g:ctrlp_user_command = 'find %s -type f'
+map <C-p> :CtrlPMixed<CR>
