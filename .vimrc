@@ -36,6 +36,9 @@ map <C-p> :CtrlPMixed<CR>
 
 nnoremap tj :tabp<CR>
 nnoremap tk :tabn<CR>
-nnoremap te :tabc<CR>
 nnoremap ta :tab all<CR>
+nnoremap te :tabc<CR>
 nnoremap tq :qa<CR>
+
+" #### CtrlP ####
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
