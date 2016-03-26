@@ -36,3 +36,6 @@ map <C-p> :CtrlPMixed<CR>
 
 nnoremap tj :tabp<CR>
 nnoremap tk :tabn<CR>
+nnoremap te :tabc<CR>
+nnoremap ta :tab all<CR>
+nnoremap tq :qa<CR>
