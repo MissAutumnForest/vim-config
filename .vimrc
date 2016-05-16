@@ -52,3 +52,6 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|.tmp'
 " #### Ag ####
 let g:ag_working_path_mode="r"
 let g:ag_prg='ag -S --nocolor --nogroup --column --ignore node_modules --ignore-dir "vendor" --ignore-dir "lib"'
+
+" #### closetag ####
+let g:closetag_filenames = "*.html,*.xhtml,*.phtml,*.php,*.xml,*.htm"
