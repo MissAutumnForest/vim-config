@@ -6,11 +6,11 @@ syntax enable       " Enable syntax processesing / highlighting
 " #### Spaces & Tabs ####
 filetype indent on
 
-setlocal softtabstop=4   " Number of spaces in TAB when editing
-setlocal tabstop=4
-set softtabstop=4
-set tabstop=4
-set shiftwidth=4
+setlocal softtabstop=2   " Number of spaces in TAB when editing
+setlocal tabstop=2
+set softtabstop=2
+set tabstop=2
+set shiftwidth=2
 
 set smartindent       " Enable Smart indent (works in c like files)
 " set expandtab       " TABs just translate to spaces now.

@@ -17,6 +17,7 @@ git clone git@github.com:maksimr/vim-jsbeautify.git ~/.vim/bundle/vim-jsbeautify
 git clone git@github.com:hail2u/vim-css3-syntax.git ~/.vim/bundle/vim-css3-syntax
 git clone git@github.com:groenewege/vim-less.git ~/.vim/bundle/vim-less
 git clone git@github.com:isRuslan/vim-es6.git ~/.vim/bundle/vim-es6
+git clone git@github.com:leafgarland/typescript-vim ~/.vim/bundle/typescript-vim
 
 git clone git@github.com:airblade/vim-gitgutter.git ~/.vim/bundle/gitgutter
 
