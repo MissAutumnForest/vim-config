@@ -1,3 +1,6 @@
+eval `ssh-agent`
+ssh-add
+
 rm -rf ~/.vimrc ~/.vim
 
 cp ./.vimrc ~/.vimrc

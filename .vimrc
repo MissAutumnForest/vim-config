@@ -76,6 +76,8 @@ autocmd FileType css nnoremap <buffer> tl :call RangeCSSBeautify()<cr>
 
 " #### NERDTree ####
 let g:NERDTreeWinSize = 40
+let g:NERDTreeDirArrowExpandable="+"
+let g:NERDTreeDirArrowCollapsible="~"
 
 " #### CtrlP ####
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|.tmp\|dist'
