@@ -90,4 +90,4 @@ let g:ag_prg='ag -S --nocolor --nogroup --column --ignore node_modules --ignore-
 let g:closetag_filenames = "*.html,*.xhtml,*.phtml,*.php,*.xml,*.htm"
 
 " #### vim-gitgutter ####
-let g:gitgutter_sign_column_always = 1
+set signcolumn=yes
