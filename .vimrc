@@ -15,6 +15,9 @@ set shiftwidth=2
 set smartindent       " Enable Smart indent (works in c like files)
 " set expandtab       " TABs just translate to spaces now.
 
+" #### Backspace ####
+set backspace=indent,eol,start
+
 " #### UI Config ####
 
 set number          " Show line numbers
