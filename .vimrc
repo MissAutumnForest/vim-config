@@ -13,7 +13,7 @@ set tabstop=2
 set shiftwidth=2
 
 set smartindent       " Enable Smart indent (works in c like files)
-" set expandtab       " TABs just translate to spaces now.
+set expandtab       " TABs just translate to spaces now.
 
 " #### Backspace ####
 set backspace=indent,eol,start
@@ -78,7 +78,7 @@ autocmd FileType html nnoremap <buffer> tl :call RangeHtmlBeautify()<cr>
 autocmd FileType css nnoremap <buffer> tl :call RangeCSSBeautify()<cr>
 
 " #### NERDTree ####
-let g:NERDTreeWinSize = 40
+let g:NERDTreeWinSize = 60
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
 
@@ -94,3 +94,12 @@ let g:closetag_filenames = "*.html,*.xhtml,*.phtml,*.php,*.xml,*.htm"
 
 " #### vim-gitgutter ####
 set signcolumn=yes
+
+" #### typescript-vim ####
+let g:typescript_compiler_binary = 'tsc'
+let g:typescript_compiler_options = ''
+autocmd QuickFixCmdPost [^l]* nested cwindow
+autocmd QuickFixCmdPost    l* nested lwindow
+
+" #### tsuquyomi ####
+let g:tsuquyomi_search_term_min_length = 3
