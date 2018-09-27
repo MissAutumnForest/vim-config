@@ -77,6 +77,15 @@ autocmd FileType jsx nnoremap <buffer> tl :call RangeJsxBeautify()<cr>
 autocmd FileType html nnoremap <buffer> tl :call RangeHtmlBeautify()<cr>
 autocmd FileType css nnoremap <buffer> tl :call RangeCSSBeautify()<cr>
 
+" VimCompleteMe
+autocmd FileType vim let b:vcm_tab_complete = 'vim'
+autocmd FileType typescript let b:vcm_tab_complete = 'typescript'
+autocmd FileType sass let b:vcm_tab_complete = 'sass'
+autocmd FileType javascript let b:vcm_tab_complete = 'javascript'
+autocmd FileType css let b:vcm_tab_complete = 'css'
+autocmd FileType html let b:vcm_tab_complete = 'html'
+autocmd FileType json let b:vcm_tab_complete = 'json'
+
 " #### NERDTree ####
 let g:NERDTreeWinSize = 60
 let g:NERDTreeDirArrowExpandable="+"
