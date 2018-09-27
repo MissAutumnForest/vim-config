@@ -23,12 +23,14 @@ git clone git@github.com:groenewege/vim-less.git ~/.vim/bundle/vim-less
 git clone git@github.com:isRuslan/vim-es6.git ~/.vim/bundle/vim-es6
 git clone git@github.com:leafgarland/typescript-vim ~/.vim/bundle/typescript-vim
 git clone git@github.com:airblade/vim-gitgutter.git ~/.vim/bundle/gitgutter
+git clone git@github.com:ajh17/VimCompletesMe.git ~/.vim/bundle/vendor/start/VimCompletesMe
 
-git clone git@github.com:Valloric/YouCompleteMe ~/.vim/bundle/youcompleteme
-pushd ~/.vim/bundle/YouCompleteMe
-git submodule update --init --recursive
-./install.py --all
-popd
+# This is broken on latest MacOSX
+# git clone git@github.com:Valloric/YouCompleteMe ~/.vim/bundle/youcompleteme
+# pushd ~/.vim/bundle/YouCompleteMe
+# git submodule update --init --recursive
+# ./install.py --all
+# popd
 
 git clone git@github.com:maksimr/vim-jsbeautify.git ~/.vim/bundle/vim-jsbeautify
 pushd ~/.vim/bundle/vim-jsbeautify
