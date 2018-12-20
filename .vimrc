@@ -90,6 +90,7 @@ autocmd FileType json let b:vcm_tab_complete = 'json'
 let g:NERDTreeWinSize = 60
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
+let NERDTreeShowHidden=1
 
 " #### CtrlP ####
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|.tmp\|dist'
@@ -102,7 +103,11 @@ let g:ag_prg='ag -S --nocolor --nogroup --column --ignore node_modules --ignore-
 let g:closetag_filenames = "*.html,*.xhtml,*.phtml,*.php,*.xml,*.htm"
 
 " #### vim-gitgutter ####
-set signcolumn=yes
+if exists('&signcolumn')  " Vim 7.4.2201
+  set signcolumn=yes
+else
+  let g:gitgutter_sign_column_always = 1
+endif"
 
 " #### typescript-vim ####
 let g:typescript_compiler_binary = 'tsc'

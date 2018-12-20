@@ -7,7 +7,7 @@ cp ./.vimrc ~/.vimrc
 cp -R ./.vim ~/.vim
 mkdir ~/.vim/undo
 
-brew install the_silver_searcher cmake
+#brew install the_silver_searcher cmake
 npm i -g eslint typescript tsc
 
 # TODO: Write script that installs Ag based on OS
@@ -24,6 +24,7 @@ git clone git@github.com:isRuslan/vim-es6.git ~/.vim/bundle/vim-es6
 git clone git@github.com:leafgarland/typescript-vim ~/.vim/bundle/typescript-vim
 git clone git@github.com:airblade/vim-gitgutter.git ~/.vim/bundle/gitgutter
 git clone git@github.com:ajh17/VimCompletesMe.git ~/.vim/bundle/vendor/start/VimCompletesMe
+git clone git@github.com:prettier/vim-prettier ~/.vim/bundle/vim-prettier
 
 # This is broken on latest MacOSX
 # git clone git@github.com:Valloric/YouCompleteMe ~/.vim/bundle/youcompleteme
