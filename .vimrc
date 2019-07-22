@@ -93,11 +93,11 @@ let g:NERDTreeDirArrowCollapsible="~"
 let NERDTreeShowHidden=1
 
 " #### CtrlP ####
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|.tmp\|dist'
+let g:ctrlp_custom_ignore = 'node_modules\|documentation\|DS_Store\|git\|.tmp\|dist'
 
 " #### Ag ####
 let g:ag_working_path_mode="r"
-let g:ag_prg='ag -S --nocolor --nogroup --column --ignore node_modules --ignore-dir "dist" --ignore-dir "vendor" --ignore-dir "lib"'
+let g:ag_prg='ag -S --nocolor --nogroup --column --ignore node_modules --ignore-dir "dist" --ignore-dir "vendor" --ignore-dir "lib" --ignore-dir "documentation"'
 
 " #### closetag ####
 let g:closetag_filenames = "*.html,*.xhtml,*.phtml,*.php,*.xml,*.htm"
