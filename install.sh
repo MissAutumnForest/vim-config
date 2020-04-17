@@ -26,6 +26,7 @@ git clone git@github.com:airblade/vim-gitgutter.git ~/.vim/bundle/gitgutter
 git clone git@github.com:ajh17/VimCompletesMe.git ~/.vim/bundle/vendor/start/VimCompletesMe
 git clone git@github.com:prettier/vim-prettier ~/.vim/bundle/vim-prettier
 git clone git@github.com:posva/vim-vue.git ~/.vim/bundle/vim-vue
+git clone git@github.com:jparise/vim-graphql ~/.vim/bundle/vim-graphql
 
 # This is broken on latest MacOSX
 # git clone git@github.com:Valloric/YouCompleteMe ~/.vim/bundle/youcompleteme
