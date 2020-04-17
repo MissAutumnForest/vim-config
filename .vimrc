@@ -117,3 +117,7 @@ autocmd QuickFixCmdPost    l* nested lwindow
 
 " #### tsuquyomi ####
 let g:tsuquyomi_search_term_min_length = 3
+
+" Vue-vim
+let g:vue_disable_pre_processors=1
+autocmd FileType vue syntax sync fromstart
